@@ -1,0 +1,71 @@
+﻿/* ----------------------------------Jumbotron (Use in Header) CSS---------------------------------- */
+.jumbotron {
+    background-color: #1976D2;
+}
+
+    .jumbotron h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: #FFFFFF;
+        font-size: 9.5vmin;
+    }
+
+    .jumbotron h3 {
+        font-size: 3.0vmin;
+        color: #BBDEFB;
+    }
+
+    .jumbotron button {
+        border: none;
+        border-radius: 25px;
+        width: 50%;
+        line-height: 250%;
+        margin-top: 1%;
+        color: #337AB7;
+        font-size: 2.5vmin;
+    }
+
+        .jumbotron button:hover {
+            background-color: #337AB7;
+            color: #fff;
+        }
+
+/* ----------------------------------Body CSS---------------------------------- */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #727272;
+    background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2196F3, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2196F3, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2196F3, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2196F3, white); /* Standard syntax */
+    background: linear-gradient(rgba(33,150,243,0.7), white); /* Standard syntax */
+}
+
+form {
+    height: 50vh;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #B6B6B6, rgba(0, 0, 0, 0));
+}
+
+/* ----------------------------------Footer CSS---------------------------------- */
+footer {
+    background-color: black;
+    height: 150px;
+    height: 20vh;
+    color: lightgray;
+}
+
+    footer span a {
+        color: lightgray;
+    }
+
+.footer-text {
+    text-align: center;
+    position: relative;
+    top: 5vh;
+    /*font-size: 1.75vmin;*/
+}
